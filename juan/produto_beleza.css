@@ -154,3 +154,31 @@ header {
       background-image: url("fone03.png");
     }
 }
+.bt1{
+    background-color: #1d2631; 
+    border: none; 
+    color: white;
+}
+.bt2{
+    background-color: #1d2631; 
+    border: none; 
+    color: white;
+}
+.bt3{
+    background-color: #1d2631; 
+    border: none; 
+    color: white;
+}
+
+.cor1{
+    text-align: center;
+    border-radius: 50%;
+  }
+  .cor2{
+    text-align: center;
+    border-radius: 50%;
+  }
+  .cor3{
+    text-align: center;
+    border-radius: 50%;
+  }
