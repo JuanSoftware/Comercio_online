@@ -24,6 +24,8 @@ body {
     margin: 0;
     height: 100vh;
     width: 100vw;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -42,7 +44,6 @@ header {
     
 
 }
-
 
 .logo {
     display: flex;
@@ -169,27 +170,42 @@ header {
 }
 
 
-.items{
+.carrosel1{
     top: 100px;
     left: 100px;
-    right: 100px;
     position: relative;
     box-sizing: border-box;
     border: 1px solid white;
-    display: block;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
     padding-top: 1rem;
     height: auto;
     width: 76%;
 
 }
-.items img {
+.carrosel1 li{
+    display: inline-block;
+
+}
+
+.carrosel1 img{
+    display: inline;
     padding: 10px;
-    justify-content: space-between;
     max-width:200px;
     max-height:150px;
     width: auto;
     height: auto;
 }
+.carrosel1 img:hover{
 
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+.relogio{
+    left: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
