@@ -32,7 +32,6 @@ body {
 
 
 header {
-    position: fixed;
     width: 100%;
     top: 0;
     right: 0;
@@ -171,19 +170,19 @@ header {
 
 
 .carrosel1{
-    top: 100px;
-    left: 100px;
-    position: relative;
+    text-align: center;
+    margin: 0;
     box-sizing:content-box;
-    display: inline-block;
+    display: block;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     height: auto;
-    width: 76%;
+    width: 100%;
 
 }
+
 .carrosel1 li{
     display: inline-block;
-
 }
 
 .carrosel1 img{
@@ -194,28 +193,25 @@ header {
     width: auto;
     height: auto;
 }
-.carrosel1 img:hover{
 
+.carrosel1 img:hover{
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
-
 }
 
 
 .carrosel2{
-    top: 100px;
-    left: 100px;
-    position: relative;
-    display: inline-block;
+    text-align: center;
+    display: block;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     height: auto;
-    width: 76%;
+    width: 100%;
 
 }
 .carrosel2 li{
     display: inline-block;
-
 }
 
 .carrosel2 img{
@@ -235,15 +231,14 @@ header {
 }
 
 .carrosel3{
-    top: 100px;
-    left: 100px;
-    position: relative;
-    display: inline-block;
+    text-align: center;
+    display: block;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     height: auto;
-    width: 76%;
-
+    width: 100%;
 }
+
 .carrosel3 li{
     display: inline-block;
 
@@ -265,9 +260,20 @@ header {
 
 }
 
-.relogio{
-    left: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+footer {
+    background-color: #1d2639;
+    bottom: 0;
+    width: 100%;
 }
+  
+.container {
+    width: 100%;
+    overflow: hidden; /* para evitar que a altura da div seja afetada */
+  }
+  
+  .col-md-3 {
+    float: left;
+    width: 25%;
+    box-sizing: border-box; /* para incluir as bordas e o preenchimento no cálculo da largura */
+    text-align: center; /* para centralizar o conteúdo na coluna */
+  }
