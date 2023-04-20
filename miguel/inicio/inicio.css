@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+:root {
+    --bg-color: var(--bg-color) #051b36;
+    --tex-color: #fff;
+    --main-color: #edb24c;
+    --other-color: #fcfcfc;
+    --h1-font: 4rem;
+    --p-font: 1rem;
+}
+
+
+body {
+    background-color: #1d2631;
+    color: var(--tex-color);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+header {
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 8%;
+    
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: var(--tex-color);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo i {
+    color: var(--main-color);
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.navegação {
+    display: flex;
+}
+
+.navegação a {
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+}
+
+.navegação a:hover {
+    color: var(--main-color);
+
+}
+
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    transform: translate(-50%);
+}
+
+#menu {
+    font-size: 35px;
+    color: var(--tex-color);
+    z-index: 10001;
+    cursor: pointer;
+}
+
+.header-icons i {
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.header-icons i:hover {
+    transform: translateY(-5px);
+    color: var(--main-color);
+}
+
+
+.section {
+    padding: 0 15%;
+}
+
+.home {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.home-text h1 {
+    font-size: var(--h1-font);
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+
+.home-text h5 {
+    color: #ffffff99;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.home-text h3 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+}
+
+.search-div{
+    position: relative;
+    align-items: center;
+    background: #1d2631;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.search-text{
+    color: white;
+    background:none;
+    border: 0;
+    outline: 0;
+    width: 0;
+    padding: 0;
+    transition: 0.6s;
+}
+
+.bx bx-search{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.search-div:hover > .search-text{
+    width: 100px;
+
+}
+
+
+.carrosel1{
+    text-align: center;
+    margin: 0;
+    box-sizing:content-box;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+    width: 100%;
+
+}
+
+.carrosel1 li{
+    display: inline-block;
+}
+
+.carrosel1 img{
+    display: inline;
+    padding: 10px;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+
+.carrosel1 img:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+
+.carrosel2{
+    text-align: center;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+    width: 100%;
+
+}
+.carrosel2 li{
+    display: inline-block;
+}
+
+.carrosel2 img{
+    display: inline;
+    padding: 10px;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+.carrosel2 img:hover{
+
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+.carrosel3{
+    text-align: center;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+    width: 100%;
+}
+
+.carrosel3 li{
+    display: inline-block;
+
+}
+
+.carrosel3 img{
+    display: inline;
+    padding: 10px;
+    max-width:200px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+}
+.carrosel3 img:hover{
+
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+  
+.container {
+    width: 100%;
+    overflow: hidden; /* para evitar que a altura da div seja afetada */
+  }
+  
+  .col-md-3 {
+    color: #fcfcfc;
+    float: left;
+    width: 25%;
+    box-sizing: border-box; /* para incluir as bordas e o preenchimento no cálculo da largura */
+    text-align: center; /* para centralizar o conteúdo na coluna */
+  }
+  .list-unstyled li a {
+
+    color: #fcfcfc;
+
+  }

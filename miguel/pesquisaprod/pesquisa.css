@@ -169,105 +169,13 @@ header {
 }
 
 
-.carrosel1{
-    text-align: center;
-    margin: 0;
-    box-sizing:content-box;
-    display: block;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    height: auto;
-    width: 100%;
-
-}
-
-.carrosel1 li{
-    display: inline-block;
-}
-
-.carrosel1 img{
-    display: inline;
-    padding: 10px;
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}
-
-.carrosel1 img:hover{
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-}
-
-
-.carrosel2{
-    text-align: center;
-    display: block;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    height: auto;
-    width: 100%;
-
-}
-.carrosel2 li{
-    display: inline-block;
-}
-
-.carrosel2 img{
-    display: inline;
-    padding: 10px;
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}
-.carrosel2 img:hover{
-
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-
-}
-
-.carrosel3{
-    text-align: center;
-    display: block;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    height: auto;
-    width: 100%;
-}
-
-.carrosel3 li{
-    display: inline-block;
-
-}
-
-.carrosel3 img{
-    display: inline;
-    padding: 10px;
-    max-width:200px;
-    max-height:150px;
-    width: auto;
-    height: auto;
-}
-.carrosel3 img:hover{
-
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-
-}
 
 footer {
-    background-color: ;
     bottom: 0;
     width: 100%;
 }
   
 .container {
-
     width: 100%;
     overflow: hidden; /* para evitar que a altura da div seja afetada */
   }
