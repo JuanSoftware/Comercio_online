@@ -38,14 +38,18 @@
     </header>
 
     
-    <div class="encontrados">
-        <h1>Os produtos encontrados foram :</h1>
-        <div class="items"></div>
+    <div class="container">
 
-
-
-
-    </div>
+      <?php
+          $titulo = 'produtos';
+      ?>
+      <h1>Página de <?php echo $titulo; ?></h1>
+      <p>Lista de <?php echo $titulo; ?></p>
+      <section>
+      <?php
+      ?>
+      </section>
+      <div class="total">Total de <?php echo mysqli_affected_rows($con); ?> prdutos</div>
 
 
 
