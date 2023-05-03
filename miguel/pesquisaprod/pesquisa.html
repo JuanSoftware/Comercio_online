@@ -27,8 +27,8 @@
             <div class="header-icons">
                 <div id="caixa" class="search-div">
     
-                    <input type="text" class="search-text" placeholder="Pesquisar">
-                    <i class='bx bx-search'></i>
+                    <input type="text" name= "search" class="search-text" placeholder="Pesquisar">
+                    <button onclick="<?php include '12.php'; ?>">lupa</button>
                 
                 </div>
                 <i class='bx bx-cart'></i>
@@ -36,21 +36,6 @@
     
             <!--header-icons-->
     </header>
-
-    
-    <div class="container">
-
-      <?php
-          $titulo = 'produtos';
-      ?>
-      <h1>Página de <?php echo $titulo; ?></h1>
-      <p>Lista de <?php echo $titulo; ?></p>
-      <section>
-      <?php
-      ?>
-      </section>
-      <div class="total">Total de <?php echo mysqli_affected_rows($con); ?> prdutos</div>
-
 
 
     <!--Rodape-->
