@@ -28,3 +28,4 @@
       ?>
       </section>
       <div class="total">Total de <?php echo mysqli_affected_rows($con); ?> prdutos</div>
+</div>
