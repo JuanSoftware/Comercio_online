@@ -3,6 +3,10 @@ setTimeout(function() {
   }, 10000);
 
   setTimeout(function() {
-    alert('Cartão Clonado com sucesso!');
+    alert('Compra realizada com sucesso!');
   }, 10000);
   
+
+  function redirecionar() {
+    window.location.href = "final_compra.html";
+  }

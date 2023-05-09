@@ -14,26 +14,31 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="pag_beleza.css">
-        <script type="text/javascript" src="pag.js"></script>
         <title>e-comerce</title>
     </head>
 
 <body>
     <header>
         <a href="#" class="logo"><i class='bx bx-headphone'>HeadPhone</i></a>
-
         <ul class="navegação">
+            <li><a href="inicio.html">inicio</a></li>
             <li><a href="#">Produtos</a></li>
             <li><a href="#">Contato</a></li>
-
-        </ul><!--navegação-->
+        </ul>
+        <!--navegação-->
 
         <div class="header-icons">
+            <div id="caixa" class="search-div">
+
+                <input type="text" class="search-text" placeholder="Pesquisar">
+                <i class='bx bx-search'></i>
             
-            <i class='bx bx-cart'></i>
+            </div>
+            <a href="\miguel\carrinho.html"><i class='bx bx-cart'></i></a>
             <div id ="menu"><i class='bx bx-menu'></i></div>
-        </div><!--header-icons-->
-    </header>
+
+        <!--header-icons-->
+</header>
     <div class="checkout-panel">
       <div class="panel-body">
         <h2 class="title">Finalizar Compra</h2>
@@ -96,10 +101,10 @@
      
       <div class="panel-footer">
         <button class="btn back-btn">Voltar</button>
-        <button class="btn next-btn">Finalizar</button>
+        <button class="btn next-btn" onclick="redirecionar()">Finalizar</button>
       </div>
     </div>
-
+    <script src="./javascript/final.js"></script>
 </body>
 
 </html>

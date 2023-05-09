@@ -5,6 +5,7 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     list-style: none;
+
 }
 
 :root {
@@ -20,12 +21,17 @@
 body {
     background-color: #1d2631;
     color: var(--tex-color);
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+
 }
 
 
 
 header {
-    position: absolute;
     width: 100%;
     top: 0;
     right: 0;
@@ -37,7 +43,6 @@ header {
     
 
 }
-
 
 .logo {
     display: flex;
@@ -74,6 +79,7 @@ header {
 .header-icons {
     display: flex;
     align-items: center;
+    transform: translate(-50%);
 }
 
 #menu {
@@ -97,7 +103,6 @@ header {
 
 
 .section {
-
     padding: 0 15%;
 }
 
@@ -130,6 +135,7 @@ header {
     letter-spacing: 2px;
     margin-bottom: 35px;
 }
+
 .search-div{
     position: relative;
     align-items: center;
@@ -161,6 +167,9 @@ header {
     width: 100px;
 
 }
+
+
+
 .btn {
     color: var(--main-color)
 }
@@ -176,13 +185,13 @@ header {
   }
 @keyframes bg-Slide{
     0%{
-      background-image: url("fone01.png" );
+      background-image: url("./imagens/fone01.png" );
     }
     60%{
-      background-image: url("fone02.png");
+      background-image: url("./imagens/fone02.png");
     }
     100%{
-      background-image: url("fone03.png");
+      background-image: url("./imagens/fone03.png");
     }
 }
 .bt1{
